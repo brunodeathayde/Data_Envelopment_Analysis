@@ -34,11 +34,11 @@ O script também realiza:
    ```r
    install.packages(c("readxl", "Benchmarking", "writexl"))
 
-## ⚠️ Observação importante
+## ⚠️ Observação importante: Exercício 
 
 No estudo de caso em questão, o objetivo do sistema é **maximizar o atendimento à demanda**, ou seja, aumentar o número de passageiros transportados por dia.
 
-Dessa forma, o modelo DEA deve ser ajustado para refletir essa meta. Em vez de utilizar a orientação para inputs (minimizar recursos), o modelo deve ser refeito com **orientação para outputs**, que busca **maximizar os resultados** com os recursos disponíveis.
+Dessa forma, o modelo DEA deve ser ajustado para refletir essa meta. Em vez de utilizar a orientação para inputs (minimizar recursos), o modelo deve ser refeito com **orientação para *outputs* **, que busca **maximizar os resultados** com os recursos disponíveis.
 
 ### ✅ Ajuste no código
 
@@ -46,3 +46,5 @@ No script `dea_la_subways.R`, altere a linha do modelo VRS para:
 
 ```r
 e_vrs <- dea(inputs, outputs, RTS = "vrs", ORIENTATION = "out")
+
+Como exercício, realizar novas análises considerando a orientação para *outputs*.
