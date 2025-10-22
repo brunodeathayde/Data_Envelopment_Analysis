@@ -38,7 +38,7 @@ O script também realiza:
 
 No estudo de caso em questão, o objetivo do sistema é **maximizar o atendimento à demanda**, ou seja, aumentar o número de passageiros transportados por dia.
 
-Dessa forma, o modelo DEA deve ser ajustado para refletir essa meta. Em vez de utilizar a orientação para inputs (minimizar recursos), o modelo deve ser refeito com **orientação para *outputs* **, que busca **maximizar os resultados** com os recursos disponíveis.
+Dessa forma, o modelo DEA deve ser ajustado para refletir essa meta. Em vez de utilizar a orientação para inputs (minimizar recursos), o modelo deve ser refeito com **orientação para *outputs***, que busca **maximizar os resultados** com os recursos disponíveis.
 
 ### ✅ Ajuste no código
 
