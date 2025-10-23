@@ -83,7 +83,7 @@ write_xlsx(eficiencia_df, "eficiencia_vrs.xlsx")
 
 # 2. Peers (unidades de referência)
 # Determinar os peers da i-ésima DMU
-peers(e_vrs, i)  
+peers(e_vrs)  
 
 # Eficiência técnica VRS
 eff_vrs <- e_vrs$eff
@@ -104,4 +104,5 @@ reducao_df <- data.frame(
 
 # Exportar para Excel
 write_xlsx(reducao_df, "reducao_inputs_para_eficiencia.xlsx")
+
 
