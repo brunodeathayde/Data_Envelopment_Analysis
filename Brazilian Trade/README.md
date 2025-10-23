@@ -41,7 +41,7 @@ A proposta é identificar quais unidades federativas conseguem transformar seu r
 
 | Arquivo                        | Descrição                                                  |
 |-------------------------------|-------------------------------------------------------------|
-| `exemplo_1.R`                 | Script principal para análise DEA                          |
+| `commerce.R`                 | Script principal para análise DEA                          |
 | `exportacoes.xls`             | Dados de exportações por Estado e ano                      |
 | `importacoes.xls`             | Dados de importações por Estado e ano                      |
 | `populacao_25_mais.xls`       | População acima de 25 anos por Estado e ano                |
