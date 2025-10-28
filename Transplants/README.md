@@ -30,7 +30,7 @@ A análise foi realizada com:
 
 ## 📚 Referência
 
-Marinho, A. & Araújo, F. (2021). *Título do artigo*. [PDF incluído]
+Marinho, A., & Araújo, C. A. S. (2021). Using data envelopment analysis and the bootstrap method to evaluate organ transplantation efficiency in Brazil. Health Care Management Science, 24(3), 569-581. [PDF incluído]
 
 ## 🚀 Como executar
 
