@@ -1,4 +1,4 @@
-# ⚽ Análise de Eficiência no Brasileirão
+# ⚽ Análise de Eficiência no Brasileirão 2024
 
 Este repositório contém scripts em R para avaliar a eficiência dos clubes da Série A do Campeonato Brasileiro, utilizando dois enfoques distintos: modelos orientados a **input** e a **output**.
 
