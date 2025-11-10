@@ -29,17 +29,15 @@ Utilizamos dois modelos de análise:
 
 ## 📂 Arquivos
 
-- `serie_a.R`: Implementa o modelo orientado a **input**.
-- `serie_A_output.R`: Implementa o modelo orientado a **output**.
-- `dados_aeroportos.csv` *(opcional)*: Contém os dados utilizados na análise.
+- `aeroportos.R`: Implementa o modelo orientado a **input** e a a **output*.
+- `data.csv`: Contém os dados utilizados na análise.
+- - `eficiencia_aeroportos.xlsx`: Resumo dos resultados obtidos.
 
 ---
 
 ## 📥 Variáveis Utilizadas
 
 ### Inputs (Infraestrutura):
-- Número de pistas
-- Balcões de check-in
 - Estacionamentos para aeronaves
 - Área do terminal (m²)
 
