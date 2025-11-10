@@ -1,6 +1,13 @@
-# 📊 Modelos de Eficiência no Futebol
+# ⚽ Análise de Eficiência no Brasileirão
 
-Este repositório apresenta dois modelos de análise de eficiência aplicados ao futebol, com foco especial no Campeonato Brasileiro (Brasileirão). A ideia é avaliar como os clubes utilizam seus recursos financeiros para gerar desempenho esportivo.
+Este repositório contém scripts em R para avaliar a eficiência dos clubes da Série A do Campeonato Brasileiro, utilizando dois enfoques distintos: modelos orientados a **input** e a **output**.
+
+---
+
+## 📂 Arquivos
+
+- `serie_a.R`: Implementa o **modelo orientado a input**, ideal para analisar quais clubes conseguem maior desempenho com menor investimento.
+- `serie_A_output.R`: Implementa o **modelo orientado a output**, focado em identificar quais clubes maximizam seus resultados com os recursos disponíveis.
 
 ---
 
@@ -9,11 +16,11 @@ Este repositório apresenta dois modelos de análise de eficiência aplicados ao
 **Foco:** Minimizar os recursos utilizados para alcançar os mesmos resultados.
 
 ### Quando usar:
-- Você quer saber quais clubes gastam menos para alcançar desempenho semelhante.
-- O orçamento é um recurso escasso e você quer avaliar eficiência financeira.
-- Ideal quando os *outputs* são fixos ou desejáveis (ex.: todos querem o máximo de pontos e saldo de gols).
+- Avaliar eficiência financeira.
+- Comparar clubes que atingem desempenho semelhante com diferentes orçamentos.
+- Ideal quando os *outputs* são fixos ou desejáveis (ex.: pontos, saldo de gols).
 
-### Exemplo no Brasileirão:
+### Exemplo:
 - **Input:** Orçamento  
 - **Outputs:** Pontos, saldo de gols  
 - **Pergunta:** “Quem está fazendo mais com menos?”
@@ -25,11 +32,11 @@ Este repositório apresenta dois modelos de análise de eficiência aplicados ao
 **Foco:** Maximizar os resultados com os mesmos recursos.
 
 ### Quando usar:
-- Você quer saber quais clubes aproveitam melhor o orçamento para gerar desempenho.
-- O orçamento é dado (fixo) e você quer avaliar produtividade esportiva.
-- Ideal quando os *inputs* são fixos ou controláveis (ex.: todos têm um orçamento definido).
+- Avaliar produtividade esportiva.
+- Comparar clubes com orçamentos semelhantes.
+- Ideal quando os *inputs* são fixos ou controláveis.
 
-### Exemplo no Brasileirão:
+### Exemplo:
 - **Input:** Orçamento  
 - **Outputs:** Pontos, saldo de gols  
 - **Pergunta:** “Quem está tirando mais proveito do que investe?”
@@ -38,13 +45,14 @@ Este repositório apresenta dois modelos de análise de eficiência aplicados ao
 
 ## 🎯 Recomendação Prática
 
-Para o caso do Brasileirão, com orçamento como *input* e pontos/saldo de gols como *outputs*, o modelo orientado a **input** é geralmente mais adequado. Ele responde à pergunta:
+Para o caso do Brasileirão, com orçamento como *input* e desempenho como *output*, o modelo orientado a **input** é geralmente mais adequado. Ele responde à pergunta:
 
 > “Quais clubes são mais eficientes em transformar investimento em desempenho?”
 
 ---
 
-Fontes
+
+## Fontes
 
 Dados sobre os outputs:
 https://www.cbf.com.br/futebol-brasileiro/tabelas/campeonato-brasileiro/serie-a/2024
