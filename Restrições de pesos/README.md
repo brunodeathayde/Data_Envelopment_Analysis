@@ -56,3 +56,9 @@ outputs = [
     [4], [10], [3], [6], [7],
     [8], [5], [4], [11], [12]
 ]
+
+## Executar no Google Colab
+
+Você pode abrir e testar este notebook diretamente no Google Colab:
+
+[![Abrir no Colab]([https://colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/drive/1dAuz2mhd0UkCYQkoOg0UrMFFjJnD4qWo?usp=sharing))]([https://colab.research.google.com/drive/SEU_ID_DO_NOTEBOOK](https://colab.research.google.com/drive/1dAuz2mhd0UkCYQkoOg0UrMFFjJnD4qWo?usp=sharing))
