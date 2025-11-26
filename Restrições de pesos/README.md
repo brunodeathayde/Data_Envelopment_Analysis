@@ -60,7 +60,7 @@ outputs = [
 ## Executar no Google Colab
 
 Você pode abrir e testar este notebook diretamente no Google Colab:
-
 [Abrir no Google Colab](https://colab.research.google.com/drive/1dAuz2mhd0UkCYQkoOg0UrMFFjJnD4qWo?usp=sharing)
+
 
 
