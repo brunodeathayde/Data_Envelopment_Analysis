@@ -11,7 +11,7 @@ Este repositório contém os arquivos utilizados e gerados no estudo de **Análi
 | **Gualandi Filho et al. (2023).pdf** | Documento | Artigo científico de referência utilizado como base teórica para o modelo DEA. |
 | **data.xlsx** | Dados | Base de dados original com variáveis de entrada (inputs) e saída (outputs) para as DMUs (universidades). |
 | **eficiencias.xlsx** | Resultados | Planilha com as eficiências calculadas para cada DMU no modelo DEA CCR orientado a outputs. |
-| **eficiencias_pesos.xlsx** | Resultados | Planilha com os pesos (u e v) atribuídos a cada variável de entrada e saída para cada DMU. |
+| **eficiencias_pesos.xlsx** | Resultados | Planilha com as eficiências considerando restrições de os pesos. |
 
 ---
 
