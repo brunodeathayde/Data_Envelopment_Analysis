@@ -36,7 +36,8 @@ Este repositório contém os arquivos utilizados e gerados no estudo de **Análi
 1. Carregue o arquivo `data.xlsx` no Google Colab ou ambiente Python.  
 2. Execute o modelo DEA CCR orientado a outputs com as variáveis listadas acima.  
 3. Os resultados de eficiência são exportados para `eficiencias.xlsx`.  
-4. Os pesos dos inputs e outputs são exportados para `eficiencias_pesos.xlsx`.  
+4. Os pesos dos inputs e outputs são exportados para `eficiencias_pesos.xlsx`.
+5. Código Google Colab: https://colab.research.google.com/drive/11Kl-Xzcd0GKd8z889OHCgZLpmMX1ZM26?usp=sharing
 
 ---
 
